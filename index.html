@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FocusPulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FocusPulse</h1>
+    <p>Turn your current vibe into a quick, simple study plan.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Select Your Current Vibe</h2>
+      <div class="mood-buttons">
+        <button class="mood-btn" data-mood="tired">😴 Tired</button>
+        <button class="mood-btn" data-mood="stressed">😵‍💫 Stressed</button>
+        <button class="mood-btn" data-mood="bored">😐 Bored</button>
+        <button class="mood-btn" data-mood="focused">💪 Motivated</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Your Focus Plan</h2>
+      <p id="planText">Pick a vibe to generate your plan.</p>
+      <button id="generateBtn">Generate Plan</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with Vibecoding • FocusPulse</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
